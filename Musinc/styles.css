@@ -1,0 +1,20 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #toggleIcon {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    cursor: pointer;
+  }
+  
+  #toggleIcon:hover {
+    filter: brightness(120%);
+  }
+  
